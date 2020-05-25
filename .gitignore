@@ -7,6 +7,6 @@ body_posture_dataset_aug_org_sep.zip
 body_posture_dataset.zip
 my_model.h5
 yolo_person_result.zip
-.idea
-.ipynb_checkpoints
-__pycache__
+./.idea
+./.ipynb_checkpoints
+./__pycache__
