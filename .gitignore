@@ -1,7 +1,6 @@
 body_posture_dataset
 cropped_dataset
 dataset_hanmi
-model
 yolo_person_result
 body_posture_dataset_aug_org_sep.zip
 body_posture_dataset.zip
