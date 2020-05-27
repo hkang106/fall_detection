@@ -34,6 +34,7 @@ class FallDetection:
         
     def inference(self, image):
         prediction = self.model(image)
+        #self.model.predict(image)
         return np.argmax(prediction)
 
     
