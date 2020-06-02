@@ -11,7 +11,7 @@ class FallDetection:
         # MODEL_PATH='model/basic-cnn-functional.h5'
         # MODEL_PATH='model/basic-cnn-functional-expert.h5'
         # MODEL_PATH='model/basic-cnn-sequential.h5'
-        self.MODEL_PATH = 'model/basic-cnn-sequential-expert.h5'
+        self.MODEL_PATH = 'model/basic-cnn-functional.h5'
         self.model = tf.keras.models.load_model(self.MODEL_PATH)
         # inference를 할 경우엔 warning 무시
         # training을 할 경우엔 compile 해야함
